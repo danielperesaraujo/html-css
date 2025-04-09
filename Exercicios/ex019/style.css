@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+Tudo que em HTML é 'id' em CSS é '#'
+Tudo que em HTML é 'class' em CSS é '.'
+
+No exemplo abaixo, separamos os 'h1' o primeiro, é o 'h1' genérico, ja o segundo, que é o 'h1#principal', ele é uma outra formatação de 'h1'
+*/
+
+body {
+    background-color: rgb(252, 252, 227);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(9, 109, 9);
+}
+
+h1#principal {
+    background-color: rgb(40, 119, 40);
+    color: white;
+    text-align: center;
+}
+
+.basico {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: rgb(184, 184, 20);
+}
+
+.avancado {
+    color: red;
+}
+
+h2 {
+    color: rgb(87, 89, 241);
+}
+
+.destaque {
+    background-color: #c7c784;
+}
+

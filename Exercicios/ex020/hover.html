@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 185px;
+        }
+
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do exemplo</p>
+    
+</body>
+</html>
+
+<!-- No exemplo acima, utilizamos o a pseudo-classe (:) onde se realaciona ao estado de um determinado elemento onde a função será, de 'passar o mouse sobre' -> 'hover'
+
+Nesse exemplo, utilizamos:
+di > p -> que significa que a 'div' tem um filho que é o 'p', então o 'p' está dentro da 'div'
+com isso utilizamos o {display: none;} -> significa que não é para mostrar nada.
+
+Então, utilizando:
+        div > p {
+            display: none;
+        }
+Siginifica que não é para mostrar nada onde, 'div > p'
+
+Agora quando eu quero que esse paragrafo apareça quando eu passar com o mouse em cima, vamos utilizar:
+        div:hover > p {
+            display: block;
+O que quer dizer é que quando passarmos o mouse por cima do paragrado que está oculto dentro da 'div' ele será exibido na tela.
+e tmabém, quando passarmos o mouse em cima da 'div' ele ficará com o texto branco e com uma box vermelha.
+  -->

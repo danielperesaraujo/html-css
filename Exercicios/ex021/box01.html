@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 { /* box-level */
+
+            /* Caso eu queira que o 'h1' se torne um 'inline' basta inserirmos o comando. 'display: inline;'
+            Lembrando que, quando inserimos o inline, não podemos inserir nem altura nem largura.*/
+
+            background-color: darkgray;
+            height: 300px;
+            width: 300px;
+
+            border: 10px solid darkslategray;
+
+            padding: 10px;
+            /* Quando inserimos apenas uma medica como acima somente '10px' significa que todos os lados terão a mesma medida. */
+
+            margin: 20px 20px 40px 20px;
+            /*Caso eu queira centralizar as margens, basta inserir o 'auto' ficando da seguinte mandeira: 
+            margin: 20px auto 40px auto; */
+
+            outline: 5px dashed salmon;
+        
+        }
+
+        a { /* inline-level */
+
+            /*Aqui a mesma coisa, podemos trasnformar em 'block' basta apenas inserirmos o 'display: block'.*/
+
+            border: 10px solid red;
+
+            padding: 10px;
+            /*Aqui inseri apenas uma medida, pois todas são iguais, então, basta apenas eu inserir apenas uma medida que ele representará automaticamente as demais com a mesma medida.*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa Box-Level</h1>
+    <p>Paragrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a></p> Vamos ver como isso funciona.
+    
+</body>
+</html>

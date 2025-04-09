@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Personalizados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Sobre HTML -->
+    <h1 id="principal">Criando sites em HTML</h1>
+    <h1>Aprendendo HTML</h1>
+    <h2 class="basico">HTML básico</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odio optio sint officia ut enim, corporis autem est pariatur earum quo illo debitis. <span class="basico">Possimus ex nisi officia</span> deleniti porro alias?</p>
+    <h2 class="intermediario">HTML intermediário</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique neque quod quae ab, doloremque, obcaecati nam blanditiis quam laboriosam, optio et amet hic rerum totam beatae? Itaque ut facere fuga.</p>
+    <h2 class="avancado destaque">HTML avançado</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam rem deleniti dolores dolor tempora dignissimos repellendus, optio aspernatur odio enim neque, repellat quo placeat labore nesciunt qui at cum amet?</p>
+
+    <!-- sobre CSS -->
+    <h1>Aprendendo CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum natus fuga voluptates saepe iste, doloremque dicta quam sint, voluptatibus sequi nostrum ipsa reprehenderit iusto autem adipisci nisi esse, eius veritatis.</p>
+    <h2 class="basico">CSS básico</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolores, possimus doloremque cum quibusdam quidem deleniti est dolorem nulla temporibus, aut quam distinctio quas voluptas sit dolorum nihil eligendi sint?</p>
+    <h2 class="intermediario">CSS intermediário</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quibusdam? Accusamus, at, tenetur aperiam hic voluptates tempora sunt repellendus iste veniam sit quidem unde eos in voluptate! Nam, minima ratione!</p>
+    <h2 class="avancado destaque">CSS avançado</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut placeat magni accusantium officia modi laborum incidunt quos obcaecati voluptatum sit, beatae eos impedit fugiat nobis minima. Reprehenderit recusandae dolore odio.</p>
+    
+</body>
+</html>
+
+<!-- Toda vez que tivermos que realizar a separação de alguma tag, como no exemplo acima, temos 2 'h1' temo 6 'h2' e 6'p' para que possamos editar separadamente essas tags, utilizamos o 'id' dentro da tag. 
+Ex: Se eu quero editar separadamente a primeira tag 'h1' eu insiro dentro da tag o 'id'
+-> <h1 id="principal"> após inserir o 'id' eu preciso separar dos demais nomeando essa tag, então coloquei como 'principal'. Logo, quando eu for realizar a configuração dessa tag serpardamente, é só eu informar que quero realizar a configuração da tag 'h1#principal'
+    # -> id
+    class -> .
+Então, tudo que eu informar como 'id' dentro do HTML, quando for realziar a configuração do CSS eu devo inserir o '#'.
+
+Já quando eu inserir o 'class' dentro do HTML, eu devo representa-lo como um '.' dentro do CSS.
+
+o comando 'id' ele permite que vc tenha apenas 1 elemento, então por exemplo, se eu quero inserir um fundo de outra cor atras de todos os 'h1' eu não vou utilizar o 'id' mas sim o 'class' pois o class ele representa (classe de elementos) então, quando eu precisar editar somente 1 elemente separado, utilizo o 'id' agora se eu preciso editar mais de uma tag com a mesma configuração, eu utilizo o 'class'
+
+Lembrando que ao inserirmos no HTML -> 'class' já no CSS -> '.' 
+Não necessáriamente, eu preciso inserir a tag juntamente com o '#' ou o '.'
+como no exemplo em HTML acima, eu utilizei 'h2 class="intermediario"' na CSS eu posso inserir (h2.intermediario) ou também, posso inserir somente (.intermediario) da segunda forma, tudo que estiver com esse comando (intermediario) será formatado da mesma forma.
+
+Eu também posso inserir mais de uma classe para uma tag e também posso inserir um id e uma classe, mas sempre o 'id' vai sobrepor a 'class'.
+-->

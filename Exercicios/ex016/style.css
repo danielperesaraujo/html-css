@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #584f47af;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+h1 {
+    color: #61564d;
+    text-align: center;
+    text-shadow: 1px 1px 2px #423b357a;
+}
+h2 {
+    color: #ac9887;
+}
+body {
+    background-image: linear-gradient(to right, #FFFEFC, #F2E4D8, #A69383);
+}
+
+
+<!-- background-color -> Define a cor de fundo do elemento main. Neste caso, o fundo será branco 
+     border-radius -> Aplica bordas arredondadas ao redor do elemento
+     box-shadow -> Cria uma sombra ao redor do elemento (primeiro 5px é a deslocamento horizontal, o segundo 5px é o deslocamento vertical, e 15px é o desfoque).
+     width -> Define a largura do elemento main
+     padding -> Aplica um espaço interno (padding) de 10 pixels em todos os lados do elemento main. 
+     margin: auto; -> A propriedade margin: auto; é usada para centralizar o elemento main horizontalmente dentro de seu contêiner pai. Quando o width é definido, a margem automática faz com que o elemento seja alinhado no centro da página. -->
