@@ -3,12 +3,34 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 :root {
     --corprincipal: #000000;
     --cornormal: #141617;
 
-    --fontcabeçalho:
-    --fontprincipal: 
-    
+    --fontcabeçalho: "Passion One", sans-serif;
+    --fontparagrafo: "Sriracha", cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header > h1 {
+    background-color: var(--corprincipal);
+    color: white;
+    font-family: var(--fontcabeçalho);
+    text-align: center;
+    font-size: 10vw;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p#subtitulo {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px
 }
