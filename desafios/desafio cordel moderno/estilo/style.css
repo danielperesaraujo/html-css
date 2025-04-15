@@ -46,6 +46,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    font-weight: bold;
 }
 
 section.normal {
@@ -55,8 +56,45 @@ section.normal {
     font-size: 3vw;
     line-height: 1.8em;
     color: black;
-    padding: 80px 0px 50px 15px;
-    padding-bottom: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     font-weight: bold;
-    box-shadow: ;
+}
+
+section {
+    font-family: var(--fontparagrafo);
+    font-size: 3vw;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 1.8em;
+    box-shadow: inset;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0,);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img01 {
+    background-image: url('https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url('https://professorguanabara.github.io/projeto-cordel/imagens/background002.jpg');
+}
+
+footer {
+    font-family: var(--fontsubtitulo);
+    background-color: var(--corprincipal);
+    color: var(--cornormal);
+    text-align: center;
+    font-size: 0.8em;
 }
