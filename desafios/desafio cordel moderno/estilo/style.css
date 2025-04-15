@@ -7,7 +7,7 @@
 
 :root {
     --corprincipal: #000000;
-    --cornormal: #141617;
+    --cornormal: #ffffff;
 
     --fontcabeçalho: "Passion One", sans-serif;
     --fontparagrafo: "Sriracha", cursive;
@@ -54,7 +54,7 @@ section.normal {
     font-style: italic;
     font-size: 3vw;
     line-height: 1.8em;
-    color: white;
+    color: black;
     padding: 80px 0px 50px 15px;
     padding-bottom: 2em;
     font-weight: bold;
